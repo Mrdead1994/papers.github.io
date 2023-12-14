@@ -1,0 +1,129 @@
+@font-face {
+    font-family: hand;
+    src: url(font/I\ Love\ Glitter.ttf);
+}
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-image: url(crumpled-sheet-graph-paper-background_47243-1131.avif);
+    
+}
+.cont{
+    /* border: 2px solid green; */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.cards{
+        width: 300px;
+        height: 200px;
+        background-color: #fff;
+        background-image: linear-gradient(#366 1.5px, transparent 1.5px), linear-gradient(90deg, #366 1.5px, transparent 1.5px), linear-gradient(#a9a9a9 1px, transparent 1px), linear-gradient(90deg, #a9a9a9 1px, transparent 1px);
+        background-position: -1.5px -1.5px, -1.5px -1.5px, -1px -1px, -1px -1px;
+        background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+        
+}
+
+.cards {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: hand;
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(63, 11, 250);
+}
+
+.card1{
+    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 250px;
+    height: 200px;
+}
+.card2{
+    height: 150px;
+    width: 350px;
+    background-color: aqua;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    z-index: 8;
+}
+.card3{
+    background-color: aqua;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+.card4{
+    background-color: aqua;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+.card6{
+    background-color: aqua;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.card6 img{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    
+}
+p{
+    text-align: center;
+}
+
+/* .heart{
+    
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.heart::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: -25px;
+}
+
+.heart::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+} */
